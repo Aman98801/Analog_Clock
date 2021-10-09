@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(77, 145, 111);
+}
+#clockContainer{
+    position: relative;
+    background-color: red;
+    width: 40vw;
+    height: 40vw;
+    margin: 3.8rem auto;
+    background: url('Analog clock.png') no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin:bottom;
+}
+#hour{
+    background-color: rgb(23, 23, 24);
+    width: 2%;
+    height: 27%;
+    top: 22.5%;
+    left: 49.2%;
+    opacity: 1;
+    /* display: none; */
+}
+#minute{
+    background-color: rgb(37, 37, 36);
+    width: 1.7%;
+    height: 32%;
+    top: 18.5%;
+    left: 49.2%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#second{
+    background-color: rgb(23, 24, 24);
+    width: 1%;
+    height: 35%;
+    top: 15.5%;
+    left: 49.2%;
+    opacity: 0.5;
+    /* display: none; */
+}
